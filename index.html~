@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>A V Masala</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/style2.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css?v=2.1.4" media="screen" />
+		<script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<div class="wrapper">	
+					<div id="logo">
+						<img src="images/logo.png" alt="logo" />
+					</div>
+					<nav>
+						<ul>
+							<li class="active"><a href="#">Home</a></li>
+							<li><a href="#">About Us</a></li>
+							<li class="drop-down"><a href="#">Products</a>
+								<ul>
+									<li class="first"><a href="#">Pure Spices</a></li>
+									<li><a href="#">Veg Masalas</a></li>
+									<li><a href="#">Non-Veg Masalas</a></li>
+									<li><a href="#">Pastes &amp; Pickles</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Media</a></li>
+							<li><a href="#">Career</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="clear"></div>
+			</header>
+			<div class="slides">
+				<div id="da-slider" class="da-slider">
+					<div class="da-slide">
+						<h2>The Taste Of India</h2>
+						<p>Presenting the AV Chilli Powder which is the ethnic taste of Indian Spice. It will Leave you carving for more.<br />Don't believe US?<br /><br />Participate in the AV Contest and get to know the real taste.</p>
+						<a href="#" class="da-link">Know more</a>
+						<div class="da-img"><img src="images/slide.png" alt="image01" /></div>
+					</div>
+					<div class="da-slide">
+						<h2>The Taste Of India</h2>
+						<p>Presenting the AV Chilli Powder which is the ethnic taste of Indian Spice. It will Leave you carving for more.<br />Don't believe US?<br /><br />Participate in the AV Contest and get to know the real taste.</p>
+						<a href="#" class="da-link">Know more</a>
+						<div class="da-img"><img src="images/slide.png" alt="image01" /></div>
+					</div>
+					<div class="da-slide">
+						<h2>The Taste Of India</h2>
+						<p>Presenting the AV Chilli Powder which is the ethnic taste of Indian Spice. It will Leave you carving for more.<br />Don't believe US?<br /><br />Participate in the AV Contest and get to know the real taste.</p>
+						<a href="#" class="da-link">Know more</a>
+						<div class="da-img"><img src="images/slide.png" alt="image01" /></div>
+					</div>
+					<div class="da-slide">
+						<h2>The Taste Of India</h2>
+						<p>Presenting the AV Chilli Powder which is the ethnic taste of Indian Spice. It will Leave you carving for more.<br />Don't believe US?<br /><br />Participate in the AV Contest and get to know the real taste.</p>
+						<a href="#" class="da-link">Know more</a>
+						<div class="da-img"><img src="images/slide.png" alt="image01" /></div>
+					</div>
+					<!--<nav class="da-arrows">
+						<span class="da-arrows-prev"></span>
+						<span class="da-arrows-next"></span>
+					</nav>-->
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="content">
+				<div class="wrapper">	
+					<div class="row">
+						<h3>OUR PRODUCTS</h3>
+						<img src="images/p1.png" alt="product 1" />
+						<p>Our range of products is heartwarming, authentic and 100% natural</p>
+					</div>
+					<div class="row mg-lt">
+						<h3>AV MASALA NEWS</h3>
+						<ul>
+							<li class="first"><span class="list">01</span><p>Our range of products is heartwarming, authentic and 100% natural</p><div class="clear"></div></li>
+							<li><span class="list">02</span><p>Our range of products is heartwarming, authentic and 100% natural</p><div class="clear"></div></li>
+						</ul>
+					</div>
+					<div class="row mg-lt">
+						<h3>WATCH US</h3>
+						<a class="fancybox" href="#video" data-fancybox-group="gallery" title="title here"><img src="images/mqdefault.jpg" alt="" /></a>
+						<iframe id="video" width="800" height="500" style="display: none;" src="http://www.youtube.com/embed/fb85qBAYwas"></iframe>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<footer>
+				<div class="wrapper">
+					<p>&copy;Copyright 2013 AV Masala</p>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Products</a></li>
+						<li><a href="#">Media</a></li>
+						<li><a class="last" href="#">Contact Enquiry</a></li>
+					</ul>
+					<p>Designed By <a href="http://www.webdesignpis.com/" target="_blank">Prabha Info Solutions</a></p>
+				</div>
+				<div class="clear"></div>
+			</footer>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery.cslider.js"></script>
+		<script type="text/javascript" src="js/jquery.fancybox.js?v=2.1.4"></script>
+	    <script type="text/javascript">
+	    	$(window).load(function() {
+		        $('#slider').nivoSlider();
+		    });
+	    </script>
+	    <script type="text/javascript">
+		$(".fancybox")
+	    .attr('rel', 'gallery')
+	    .fancybox({
+	        openEffect : 'none',
+	        helpers : {
+	            title : null            
+	        }           
+	    });
+		</script>
+		<script type="text/javascript">
+			$(function() {
+			
+				$('#da-slider').cslider({
+					autoplay	: true,
+					bgincrement	: 450
+				});
+			
+			});
+			$(document).ready(function(){
+				$("li.drop-down").hover(function(){
+					$(this).children("ul").slideToggle("1000");
+				});
+			});
+		</script>
+	</body>
+</html>
